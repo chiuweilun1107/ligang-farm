@@ -39,9 +39,13 @@ document.querySelector('#app').innerHTML = `
 
 <!-- ===== HERO ===== -->
 <section class="hero-bg min-h-screen flex items-center justify-center relative">
+  <div class="absolute inset-0 z-0">
+    <img src="/images/hero-bg.png" alt="里港共享農園全景" class="w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
+  </div>
   <div class="hero-deco-left"></div>
   <div class="hero-deco-right"></div>
-  <div class="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl mx-auto">
+  <div class="relative z-10 text-center text-white px-4 sm:px-6 max-w-4xl mx-auto pt-24 sm:pt-28">
     <p class="hero-subtitle text-sm sm:text-base font-medium mb-5 sm:mb-6 tracking-widest opacity-80 uppercase">Ligang Shared Farm</p>
     <h1 class="text-5xl sm:text-6xl md:text-8xl font-black mb-5 sm:mb-7 leading-[1.1] tracking-tight">
       高雄人的<br class="sm:hidden">後花園
@@ -138,8 +142,8 @@ document.querySelector('#app').innerHTML = `
             </li>
           </ul>
         </div>
-        <div class="rounded-2xl overflow-hidden shadow-sm h-full min-h-[250px]">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14683.5!2d120.49!3d22.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1a7b0c7f27e1%3A0x0!2z6YeM5riv6YSJ!5e0!3m2!1szh-TW!2stw!4v1" class="w-full h-full min-h-[250px] border-0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="rounded-2xl overflow-hidden shadow-sm">
+          <img src="/images/about-farm.png" alt="親子家庭在田間種菜" class="w-full h-full object-cover min-h-[250px]" />
         </div>
       </div>
     </div>
@@ -346,7 +350,7 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7">
       <div class="fade-in fade-in-delay-1 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-primary/20 via-primary/10 to-primary/5 flex items-center justify-center"><svg class="w-16 h-16 text-primary/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="5" r="2.5"/><path d="M8 10h8M12 10v7M9 17l-2 4M15 17l2 4M7 13c-2 0-3 1-3 2M17 13c2 0 3 1 3 2"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-farming.png" alt="假日農夫體驗" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">假日農夫體驗日</h4>
@@ -358,7 +362,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="fade-in fade-in-delay-2 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-earth/20 via-earth/10 to-earth/5 flex items-center justify-center"><svg class="w-16 h-16 text-earth/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 22V14M12 14c-3-1-5-4-5-7a5 5 0 0 1 10 0c0 3-2 6-5 7z"/><path d="M9 4c0 0-2-1-4 1M15 4c0 0 2-1 4 1"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/fruit-trees.png" alt="季節採果" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">季節採果節</h4>
@@ -370,7 +374,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="fade-in fade-in-delay-3 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-sky-200/40 via-sky-100/30 to-sky-50/20 flex items-center justify-center"><svg class="w-16 h-16 text-sky-300/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="9" cy="5" r="2"/><circle cx="16" cy="7" r="1.5"/><path d="M6 10h6v3l1 8H8l1-8H6zM14 11h4v2l.5 5h-3l.5-5"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/about-farm.png" alt="親子農夫營" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">親子農夫營</h4>
@@ -382,7 +386,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="fade-in fade-in-delay-1 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-warm-dark/40 via-warm/30 to-warm/20 flex items-center justify-center"><svg class="w-16 h-16 text-warm-dark/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 2c0 4-6 6-6 12a6 6 0 0 0 12 0c0-6-6-8-6-12z"/><path d="M12 18a2 2 0 0 1-2-2c0-2 2-3 2-5 0 2 2 3 2 5a2 2 0 0 1-2 2z"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-bbq.png" alt="假日烤肉" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">假日烤肉＋採菜</h4>
@@ -394,7 +398,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="fade-in fade-in-delay-2 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-primary-light/20 via-primary/10 to-primary/5 flex items-center justify-center"><svg class="w-16 h-16 text-primary/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M8 7h8M8 11h6"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-education.png" alt="食農教育課程" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">食農教育課程</h4>
@@ -406,7 +410,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </div>
       <div class="fade-in fade-in-delay-3 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 bg-gradient-to-br from-primary-dark/20 via-primary-dark/10 to-primary-dark/5 flex items-center justify-center"><svg class="w-16 h-16 text-primary-dark/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="4" y="4" width="16" height="17" rx="2"/><path d="M9 21V8M15 21V8M4 8h16M8 12h2M14 12h2M8 16h2M14 16h2"/></svg></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/hero-bg.png" alt="企業團建" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">企業團建方案</h4>
@@ -432,41 +436,41 @@ document.querySelector('#app').innerHTML = `
       </p>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
-      <div class="gallery-item gallery-sunrise col-span-2 row-span-2 !aspect-square">
-        <svg class="w-16 h-16 text-earth/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-        <div class="gallery-label">農園晨光</div>
+      <div class="gallery-item col-span-2 row-span-2 !aspect-square overflow-hidden">
+        <img src="/images/hero-bg.png" alt="農園全景" class="w-full h-full object-cover" />
+        <div class="gallery-label">農園全景</div>
       </div>
-      <div class="gallery-item gallery-veggie">
-        <svg class="w-10 h-10 text-primary/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 22V12M8 6c0 3 2 6 4 6s4-3 4-6-2-4-4-4-4 1-4 4z"/></svg>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/activity-farming.png" alt="有機蔬果採收" class="w-full h-full object-cover" />
         <div class="gallery-label">有機蔬果</div>
       </div>
-      <div class="gallery-item gallery-lemon">
-        <svg class="w-10 h-10 text-yellow-600/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><ellipse cx="12" cy="12" rx="6" ry="8"/><path d="M12 4c2 2 2 6 0 8M10 6c0 2 1 4 2 5"/></svg>
-        <div class="gallery-label">檸檬園區</div>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/fruit-trees.png" alt="果樹園區" class="w-full h-full object-cover" />
+        <div class="gallery-label">果樹園區</div>
       </div>
-      <div class="gallery-item gallery-family">
-        <svg class="w-10 h-10 text-sky-400/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="9" cy="5" r="2"/><circle cx="16" cy="7" r="1.5"/><path d="M6 10h6v3l1 8H8l1-8H6zM14 11h4v2l.5 5h-3l.5-5"/></svg>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/about-farm.png" alt="親子時光" class="w-full h-full object-cover" />
         <div class="gallery-label">親子時光</div>
       </div>
-      <div class="gallery-item gallery-mango">
-        <svg class="w-10 h-10 text-orange-400/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 22V14M12 14c-3-1-5-4-5-7a5 5 0 0 1 10 0c0 3-2 6-5 7z"/></svg>
-        <div class="gallery-label">芒果豐收</div>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/activity-education.png" alt="食農教育" class="w-full h-full object-cover" />
+        <div class="gallery-label">食農教育</div>
       </div>
-      <div class="gallery-item gallery-field col-span-2">
-        <svg class="w-14 h-14 text-primary/15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21h18M5 21V13l7-9 7 9v8M10 21v-4h4v4"/></svg>
-        <div class="gallery-label">假日農夫區全景</div>
-      </div>
-      <div class="gallery-item gallery-house">
-        <svg class="w-10 h-10 text-warm-dark/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21h18M5 21V11l7-6 7 6v10"/><rect x="9" y="14" width="6" height="7"/></svg>
-        <div class="gallery-label">農舍服務中心</div>
-      </div>
-      <div class="gallery-item gallery-bbq">
-        <svg class="w-10 h-10 text-red-400/20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 2c0 4-6 6-6 12a6 6 0 0 0 12 0c0-6-6-8-6-12z"/></svg>
+      <div class="gallery-item col-span-2 overflow-hidden">
+        <img src="/images/activity-bbq.png" alt="假日烤肉趣" class="w-full h-full object-cover" />
         <div class="gallery-label">假日烤肉趣</div>
+      </div>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/activity-farming.png" alt="農夫體驗" class="w-full h-full object-cover object-left" />
+        <div class="gallery-label">農夫體驗</div>
+      </div>
+      <div class="gallery-item overflow-hidden">
+        <img src="/images/hero-bg.png" alt="農園夕照" class="w-full h-full object-cover object-bottom" />
+        <div class="gallery-label">農園夕照</div>
       </div>
     </div>
     <p class="text-center text-text-light text-xs sm:text-sm mt-8 sm:mt-10 opacity-70">
-      * 以上為示意呈現，實際農園照片即將上線
+      * 以上為 AI 模擬示意圖，實際農園照片即將更新
     </p>
   </div>
 </section>
