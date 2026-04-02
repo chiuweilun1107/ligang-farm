@@ -38,7 +38,7 @@
 <!-- ===== HERO ===== -->
 <section class="hero-bg min-h-screen flex items-center justify-center relative">
   <div class="absolute inset-0 z-0">
-    <img src="/images/hero-bg.png" alt="里港共享農園全景" class="w-full h-full object-cover" />
+    <img src="/ligang-farm/images/hero-bg.png" alt="里港共享農園全景" class="w-full h-full object-cover" />
     <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
   </div>
   <div class="hero-deco-left"></div>
@@ -141,7 +141,7 @@
           </ul>
         </div>
         <div class="rounded-2xl overflow-hidden shadow-sm">
-          <img src="/images/about-farm.png" alt="親子家庭在田間種菜" class="w-full h-full object-cover min-h-[250px]" />
+          <img src="/ligang-farm/images/about-farm.png" alt="親子家庭在田間種菜" class="w-full h-full object-cover min-h-[250px]" />
         </div>
       </div>
     </div>
@@ -348,7 +348,7 @@
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7">
       <div class="fade-in fade-in-delay-1 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-farming.png" alt="假日農夫體驗" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/activity-farming.png" alt="假日農夫體驗" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">假日農夫體驗日</h4>
@@ -360,7 +360,7 @@
         </div>
       </div>
       <div class="fade-in fade-in-delay-2 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/fruit-trees.png" alt="季節採果" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/fruit-trees.png" alt="季節採果" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">季節採果節</h4>
@@ -372,7 +372,7 @@
         </div>
       </div>
       <div class="fade-in fade-in-delay-3 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/about-farm.png" alt="親子農夫營" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/about-farm.png" alt="親子農夫營" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">親子農夫營</h4>
@@ -384,7 +384,7 @@
         </div>
       </div>
       <div class="fade-in fade-in-delay-1 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-bbq.png" alt="假日烤肉" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/activity-bbq.png" alt="假日烤肉" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">假日烤肉＋採菜</h4>
@@ -396,7 +396,7 @@
         </div>
       </div>
       <div class="fade-in fade-in-delay-2 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/activity-education.png" alt="食農教育課程" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/activity-education.png" alt="食農教育課程" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">食農教育課程</h4>
@@ -408,7 +408,7 @@
         </div>
       </div>
       <div class="fade-in fade-in-delay-3 activity-card bg-cream rounded-2xl overflow-hidden shadow-sm">
-        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/images/hero-bg.png" alt="企業團建" class="w-full h-full object-cover" /></div>
+        <div class="activity-hero h-40 sm:h-48 overflow-hidden"><img src="/ligang-farm/images/hero-bg.png" alt="企業團建" class="w-full h-full object-cover" /></div>
         <div class="p-5 sm:p-7">
           <div class="flex items-center justify-between mb-3">
             <h4 class="font-bold text-text text-sm sm:text-base">企業團建方案</h4>
@@ -435,35 +435,35 @@
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
       <div class="gallery-item col-span-2 row-span-2 !aspect-square overflow-hidden">
-        <img src="/images/hero-bg.png" alt="農園全景" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/hero-bg.png" alt="農園全景" class="w-full h-full object-cover" />
         <div class="gallery-label">農園全景</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/activity-farming.png" alt="有機蔬果採收" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/activity-farming.png" alt="有機蔬果採收" class="w-full h-full object-cover" />
         <div class="gallery-label">有機蔬果</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/fruit-trees.png" alt="果樹園區" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/fruit-trees.png" alt="果樹園區" class="w-full h-full object-cover" />
         <div class="gallery-label">果樹園區</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/about-farm.png" alt="親子時光" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/about-farm.png" alt="親子時光" class="w-full h-full object-cover" />
         <div class="gallery-label">親子時光</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/activity-education.png" alt="食農教育" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/activity-education.png" alt="食農教育" class="w-full h-full object-cover" />
         <div class="gallery-label">食農教育</div>
       </div>
       <div class="gallery-item col-span-2 overflow-hidden">
-        <img src="/images/activity-bbq.png" alt="假日烤肉趣" class="w-full h-full object-cover" />
+        <img src="/ligang-farm/images/activity-bbq.png" alt="假日烤肉趣" class="w-full h-full object-cover" />
         <div class="gallery-label">假日烤肉趣</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/activity-farming.png" alt="農夫體驗" class="w-full h-full object-cover object-left" />
+        <img src="/ligang-farm/images/activity-farming.png" alt="農夫體驗" class="w-full h-full object-cover object-left" />
         <div class="gallery-label">農夫體驗</div>
       </div>
       <div class="gallery-item overflow-hidden">
-        <img src="/images/hero-bg.png" alt="農園夕照" class="w-full h-full object-cover object-bottom" />
+        <img src="/ligang-farm/images/hero-bg.png" alt="農園夕照" class="w-full h-full object-cover object-bottom" />
         <div class="gallery-label">農園夕照</div>
       </div>
     </div>
